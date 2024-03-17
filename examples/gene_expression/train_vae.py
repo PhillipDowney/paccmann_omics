@@ -191,7 +191,7 @@ def main(
                 tracker.update_val_batch(loss, rec, kld)
 
         tracker.logg_val_epoch()
-        tracker.logg_tensorboard()
+        # tracker.logg_tensorboard()  # Removed after 0.0.1
         tracker.check_to_save(encoder, decoder, model)
 
     tracker.final_log()
