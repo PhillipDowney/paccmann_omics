@@ -1,4 +1,4 @@
-# Sample logs of training with 10% of data
+# Sample logs of full pretraining
 (openad-train) deanelzinga@cde-ubuntu-g5-3:~/phillipdowney/paccmann_rl$ python code/paccmann_omics/examples/gene_expression/do_train_vae_as_pvae.py
 98461 It took 26.3 secs.
 INFO:pvae:       **** VALIDATION **** Epoch [62/2000], loss: 462.8, rec: 0.361883, KLD: 1.214188. 
